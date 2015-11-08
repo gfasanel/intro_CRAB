@@ -24,3 +24,9 @@ crab -c prod_ntuples/MINIAODNTUPLE/DoubleEG-ZSkim-Run2015B-PromptReco-v1-miniAOD
 #controlla lo status
 crab -c prod_ntuples/MINIAODNTUPLE/DoubleEG-ZSkim-Run2015B-PromptReco-v1-miniAOD_test/251022-251883/ -status -getoutput
 ```
+
+Questo
+https://github.com/GiuseppeFasanella/ECALELF/blob/miniAOD/EcalAlCaRecoProducers/tmp/ntuple_data.cfg
+
+e' un config file di crab che mi funziona: vedi che in `pset=...` gli stai dicendo cosa deve girare cmsRun e anche
+sotto ci sono tutte le opzioni con cui cmsRun deve girare
